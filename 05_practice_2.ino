@@ -7,7 +7,7 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(LED_PIN, 0);
+  digitalWrite(LED_PIN, toggle);
   delay(1000);
 
   for (int i = 0; i < 11; i++) {
